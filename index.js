@@ -46,3 +46,19 @@ console.log(fname); //change
 // Value	                         Becomes…
 // 0, null,  undefined, NaN, ""	     false
 // any other value	                 true
+
+//================String concatenation ===============
+//console.log('1' + 2 + 2); // "122"
+//console.log(2 + 2 + '1' ); // "41"
+
+//=============binary plus concatenates strings============
+//let apples = "2";
+//let oranges = "3";
+//
+//console.log( apples + oranges ); // "23", the binary plus concatenates strings
+
+// let n = 2;
+// n = n + 5;
+// n = n * 2;
+
+// console.log(n); //  14

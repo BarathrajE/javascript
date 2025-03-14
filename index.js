@@ -62,3 +62,107 @@ console.log(fname); //change
 // n = n * 2;
 
 // console.log(n); //  14
+
+
+// let a = (1 + 2, 3 + 4);
+
+// console.log(a);// 7 (the result of 3 + 4)
+
+
+// let b=(1,3+1)
+// console.log(b)
+// console.log( 2 > 1 );  // true (correct)
+// console.log( 2 == 1 ); // false (wrong)
+// console.log( 2 != 2 ); // true (correct)
+
+// let a=1;
+// let message=(a<3)? "hey baby":
+// (a<18)?"hello":
+// (a<100)?"hi":"what is your age";
+// console.log(message);
+
+
+//==========|| operator first check truthy=============
+//==========?? operator first check defined values==========
+
+// let height = 0;
+
+// console.log(height || 100); // 100
+// console.log(height ?? 100); // 0
+
+// let i=6
+// while(i){
+//     console.log(i);
+//     i--
+
+// }//
+//
+//let i=3;
+//do{
+//    console.log(i)
+//    i++
+//}while(i<10);
+//
+
+// for( let i=0;i<=10;i++){
+//     console.log(i);
+// }
+
+// for(i=1;i<=10;i++){
+//     if(i % 2!=0){
+//     console.log(i);
+//     }
+    
+// }
+// let i=0;
+// while(i<3){
+//     console.log(i)
+//     i++
+// }
+
+//==============FUNCTION===========
+
+//=========local variable==========
+// message()
+// function message(){
+//     let i ="hey hello"
+//     console.log(i);
+// }
+// message()
+// message()
+//===========outer variable===========
+
+// let name="barath" 
+// function message(){
+//     let fname="hello " +name
+//     console.log(fname);
+// }
+// message()
+//=========Return==============
+
+// function sum(a,b){
+//     return a + b;
+// }
+// console.log( sum(2,3));
+
+
+// function checkAge(age) {
+//     if (age >= 18) {
+//       return true;
+//     } else {
+//       return confirm('Do you have permission from your parents?');
+//     }
+//   }
+  
+//   let age = prompt('How old are you?', 18);
+  
+//   if ( checkAge(age) ) {
+//     console.log('Access granted');
+//   } else {
+//     console.log('Access denied');
+//   }
+
+
+
+
+ 

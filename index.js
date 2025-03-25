@@ -162,7 +162,27 @@ console.log(fname); //change
 //     console.log('Access denied');
 //   }
 
+// function two(){
+//     console.log("b");
+// }
+// function three(){
+//     console.log("c");
+// }
+// function a() {
+//     return console.log("a") +two() + three()
+    
+// }
+// a()
 
+let a = () => {
+    console.log("a")
+}
+let b = () => {
+    console.log("b");
+}
+let c = () => {
+     return console.log("abc") + b() + a()
+}
 
+c(); 
 
- 

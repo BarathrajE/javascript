@@ -174,15 +174,15 @@ console.log(fname); //change
 // }
 // a()
 
-let a = () => {
-    console.log("a")
-}
-let b = () => {
-    console.log("b");
-}
-let c = () => {
-     return console.log("abc") + b() + a()
-}
+// let a = () => {
+//     console.log("a")
+// }
+// let b = () => {
+//     console.log("b");
+// }
+// let c = () => {
+//      return console.log("abc") + b() + a()
+// }
 
-c(); 
+// c(); 
 
